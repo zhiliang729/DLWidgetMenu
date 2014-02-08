@@ -10,9 +10,9 @@
 
 @class DLWMMenu;
 
-@interface DLWMGenericMenuViewController : UIViewController
+@interface DLWMGenericMenuViewController : UIViewController//基本controller
 
-@property (readwrite, weak, nonatomic) IBOutlet UIView *configurationView;
-@property (readwrite, strong, nonatomic) DLWMMenu *menu;
+@property (readwrite, weak, nonatomic) IBOutlet UIView *configurationView;//指向设置view
+@property (readwrite, strong, nonatomic) DLWMMenu *menu;//小组件view
 
 @end
